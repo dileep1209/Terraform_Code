@@ -1,7 +1,7 @@
 provider "aws" {
   region     = var.region
-  access_key = "AKIAZWO563KPTTCENP4G"
-  secret_key = "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"
+  access_key = "**********"
+  secret_key = "***********"
 }
 
 resource "aws_instance" "Jenkins_Server" {
